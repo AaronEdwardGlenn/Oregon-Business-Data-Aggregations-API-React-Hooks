@@ -3,8 +3,8 @@ require('dotenv').config();
 require('./lib/utils/connect')(); 
 
 const mongoose = require('mongoose'); 
-const { seedData } = require('./lib/utils/seed-data'); 
+const { seedStakeholderData } = require('./lib/utils/seed-data'); 
 
-seedData()
+seedStakeholderData()
   .then(() => console.log('duuuuooonnneeeeeee'))
   .finally(() => mongoose.connection.close());
