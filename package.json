@@ -1,5 +1,5 @@
 {
-  "name": ".",
+  "name": "stockpricechecker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -19,13 +19,13 @@
     "@types/jest": "^24.0.24",
     "eslint": "^6.7.2",
     "jest": "^24.9.0",
-    "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
   },
   "dependencies": {
     "csvtojson": "^2.0.10",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.8.1"
+    "mongoose": "^5.9.19",
+    "nodemon": "^2.0.4"
   }
 }
